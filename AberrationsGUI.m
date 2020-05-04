@@ -206,7 +206,6 @@ function GenerateAberrations_Callback(hObject, eventdata, handles)
      axes(handles.axes2)
      imagesc(aberrated_img);  colormap gray;
      img_size = max(max(u))*1e3;     %in units of [mm] (millimeters)
-     disp(img_size)
      xticklabels = -img_size:img_size/2:img_size;
      xticks = linspace(1, size(u, 2), numel(xticklabels));
      yticklabels = -xticklabels;
