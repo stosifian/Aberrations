@@ -100,7 +100,8 @@ function UploadImage_Callback(hObject, eventdata, handles)
     
     img = imread(img_path);
     img = double(rgb2gray(img));
-    img(img > 0) = 1;
+    img = imresize(img,[512 512]);
+    %img(img > 0) = 1;
     %img = padarray(img,[N/4,N/4],0);
     
     handles.img = img;
