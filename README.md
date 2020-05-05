@@ -11,7 +11,9 @@ For this simulator, we treat the imaging system as one for (spatially) incoheren
 
 The PSF can be obtained by taking the squared magnitude of the amplitude transfer function (ATF), which is the impulse response of a coherent imaging system. The ATF is calculated by taking the scaled Fourier Transform of the generalized pupil function P(x,y) 
 
-            <img width="299" alt="ATF" src="https://user-images.githubusercontent.com/47396320/81115854-3c5d0d00-8ed9-11ea-9452-485b4c1eba9e.png">
+<p align="center">
+<img width="299" alt="ATF" src="https://user-images.githubusercontent.com/47396320/81115854-3c5d0d00-8ed9-11ea-9452-485b4c1eba9e.png">
+</p>
 
 The generalized pupil function arises from the general aperture of the system (for this simulator, a circular aperture) with a complex optical phase that reflects the aberrations of the system 
 
