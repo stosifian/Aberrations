@@ -44,3 +44,26 @@ For this simulator, we only use the first several terms of the Zernike expansion
 You can adjust the amount of each aberration by varying the coefficient of its respective Zernike polynomial. Note that for astigmatism and coma, the aberration in the x and y direction are varied by the same coefficient.
 
 Since we’re dealing with discretized images, we need to be considerate of aliasing when choosing parameters for the simulation. As a good rule of thumb, the sampling frequency should be greater than the frequency cutoff for incoherent imaging systems, which is f0 =  D/(lam*zi)
+
+
+### Examples
+
+Diffraction-Limited Image (No aberrations)
+<p align="center">
+<img width="1000" alt="DLim" src="https://user-images.githubusercontent.com/47396320/81118574-02dad080-8ede-11ea-8002-8a2f80874bed.png">
+</p>
+
+Defocus
+<p align="center">
+<img width="1027" alt="defocus" src="https://user-images.githubusercontent.com/47396320/81118616-138b4680-8ede-11ea-97f4-f7a56de83e28.png">
+</p>
+
+Astigmatism
+<p align="center">
+<img width="1024" alt="ast" src="https://user-images.githubusercontent.com/47396320/81118732-4c2b2000-8ede-11ea-9cae-2d7f0618c652.png">
+</p>
+
+Spherical
+<p align="center">
+<img width="1025" alt="Sph" src="https://user-images.githubusercontent.com/47396320/81118679-30277e80-8ede-11ea-9a7e-6614de133720.png">
+</p>
