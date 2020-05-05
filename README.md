@@ -9,7 +9,7 @@ The response of light to an imaging system can be modeled as a linear system. As
 
 For this simulator, we treat the imaging system as one for (spatially) incoherent light. Being a linear system, the (normalized) transfer function for an incoherent imager is referred to as the optical transfer function (OTF), whose magnitude is oft-referred to as the modulation transfer function (MTF). The impulse response is referred to as the point spread function (PSF), which is what the output of the system would when the input is an ideal point source (i.e. impulse)
 
-The PSF can be obtained by taking the squared magnitude of the amplitude transfer function (ATF) $h(u,v)$ , which is the impulse response of a coherent imaging system. The ATF is calculated by taking the scaled Fourier Transform of the generalized pupil function P(x,y):
+The PSF can be obtained by taking the squared magnitude of the amplitude transfer function (ATF) $'h(u,v)'$ , which is the impulse response of a coherent imaging system. The ATF is calculated by taking the scaled Fourier Transform of the generalized pupil function P(x,y):
 
 <p align="center">
 <img width="299" alt="ATF" src="https://user-images.githubusercontent.com/47396320/81115854-3c5d0d00-8ed9-11ea-9452-485b4c1eba9e.png">
