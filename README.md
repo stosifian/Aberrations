@@ -30,4 +30,6 @@ The aberrations of an optical system can generally be written as an expansion of
 
 For this simulator, we only use the first several terms of the Zernike expansion, which represent the effects of first order defocus, astigmatism, coma, and spherical aberration. 
 
-
+<p align="center">
+<img width="430" alt="Abs" src="https://user-images.githubusercontent.com/47396320/81117798-97443380-8edc-11ea-82c4-7674448fab56.png">
+</p>
