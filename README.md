@@ -9,13 +9,14 @@ The response of light to an imaging system can be modeled as a linear system. As
 
 For this simulator, we treat the imaging system as one for (spatially) incoherent light. Being a linear system, the (normalized) transfer function for an incoherent imager is referred to as the optical transfer function (OTF), whose magnitude is oft-referred to as the modulation transfer function (MTF). The impulse response is referred to as the point spread function (PSF), which is what the output of the system would when the input is an ideal point source (i.e. impulse)
 
-The PSF can be obtained by taking the squared magnitude of the amplitude transfer function (ATF), which is the impulse response of a coherent imaging system. The ATF is calculated by taking the scaled Fourier Transform of the generalized pupil function P(x,y) 
+The PSF can be obtained by taking the squared magnitude of the amplitude transfer function (ATF), which is the impulse response of a coherent imaging system. The ATF is calculated by taking the scaled Fourier Transform of the generalized pupil function P(x,y):
 
 <p align="center">
 <img width="299" alt="ATF" src="https://user-images.githubusercontent.com/47396320/81115854-3c5d0d00-8ed9-11ea-9452-485b4c1eba9e.png">
 </p>
 
 The generalized pupil function arises from the general aperture of the system (for this simulator, a circular aperture) with a complex optical phase that reflects the aberrations of the system 
+
 <p align="center">
 <img width="181" alt="GenPupil" src="https://user-images.githubusercontent.com/47396320/81115872-44b54800-8ed9-11ea-8db7-61cf20d57cc5.png">
 </p>
@@ -26,6 +27,7 @@ The aberrations of an optical system can generally be written as an expansion of
 <img width="383" alt="W_Expansion" src="https://user-images.githubusercontent.com/47396320/81115863-3ebf6700-8ed9-11ea-9503-8d5561b52e95.png">
 <img width="238" alt="Zernike" src="https://user-images.githubusercontent.com/47396320/81115837-36672c00-8ed9-11ea-9792-a41bc98dca14.png">
 </p>
+
 For this simulator, we only use the first several terms of the Zernike expansion, which represent the effects of first order defocus, astigmatism, coma, and spherical aberration. 
 
 
