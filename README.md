@@ -72,3 +72,7 @@ Spherical
 <p align="center">
 <img width="1025" alt="Sph" src="https://user-images.githubusercontent.com/47396320/81118679-30277e80-8ede-11ea-9a7e-6614de133720.png">
 </p>
+
+
+## References
+1. "Numerical Simulation of Optical Wave Propagation with examples in MATLAB" - Schmidt, Jason D.
