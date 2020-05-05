@@ -15,6 +15,9 @@ The PSF can be obtained by taking the squared magnitude of the amplitude transfe
 <img width="299" alt="ATF" src="https://user-images.githubusercontent.com/47396320/81115854-3c5d0d00-8ed9-11ea-9452-485b4c1eba9e.png">
 </p>
 
+
+
+
 The generalized pupil function arises from the general aperture of the system (for this simulator, a circular aperture) with a complex optical phase that reflects the aberrations of the system 
 
 <p align="center">
@@ -35,3 +38,9 @@ For this simulator, we only use the first several terms of the Zernike expansion
 <img width="430" alt="Abs" src="https://user-images.githubusercontent.com/47396320/81117798-97443380-8edc-11ea-82c4-7674448fab56.png">
 </p>
 
+
+### Notes
+
+You can adjust the amount of each aberration by varying the coefficient of its respective Zernike polynomial. Note that for astigmatism and coma, the aberration in the x and y direction are varied by the same coefficient.
+
+Since we’re dealing with discretized images, we need to be considerate of aliasing when choosing parameters for the simulation. As a good rule of thumb, the sampling frequency should be greater than the frequency cutoff for incoherent imaging systems, which is f0 =  D/(lam*zi)
