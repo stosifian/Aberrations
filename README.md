@@ -63,6 +63,11 @@ Astigmatism
 <img width="1024" alt="ast" src="https://user-images.githubusercontent.com/47396320/81118732-4c2b2000-8ede-11ea-9cae-2d7f0618c652.png">
 </p>
 
+Coma
+<p align="center">
+<img width="1025" alt="Sph" src="https://user-images.githubusercontent.com/47396320/81118679-30277e80-8ede-11ea-9a7e-6614de133720.png">
+</p>
+
 Spherical
 <p align="center">
 <img width="1025" alt="Sph" src="https://user-images.githubusercontent.com/47396320/81118679-30277e80-8ede-11ea-9a7e-6614de133720.png">
